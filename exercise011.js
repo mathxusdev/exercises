@@ -10,9 +10,10 @@ function sumTo1(n) {
 
 function sumTo2(n) {
     if (n == 1) {
-        return 1;
+        return n;
     }
-    return n + sumTo2(n - 1); 
+    
+    return n + sumTo2(n - 1);
 }
 
 function sumTo3(n) {
