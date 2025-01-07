@@ -3,5 +3,3 @@ function sum(a) {
         return a + b;
     }
 }
-
-console.log(sum(5)(-1));
