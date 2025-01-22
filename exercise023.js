@@ -7,6 +7,7 @@ function spy(func) {
     
     function wrapper(...args) {
         wrapper.calls.push(args);
+        return func.apply(this, args);
     }
 
     return wrapper;
